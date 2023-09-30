@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  background: var(--foundation-painted-pony-normal-hover, #A78768);
+  display: grid;
+  justify-content: center;
+  padding: 130px;
+}
+.box .text h1 {
+  color: var(--foundation-light-white, #FFF);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.box .text p {
+  color: var(--foundation-light-white-active, #F7F6F3);
+  text-align: center;
+  font-family: Encode Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.box .logo {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 150px;
+}
+.box .logo .logo_child {
+  text-align: center;
+}
+.box .logo .logo_child .text1 {
+  padding-top: 18px;
+}
+.box .logo .logo_child .text1 p {
+  color: var(--foundation-light-white, #FFF);
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.box .logo .logo_child .text1 span {
+  color: var(--foundation-light-white, #FFF);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 9px;
+}
+.box .logo .logo_child:nth-child(3) {
+  width: 293px;
+}
+.box .project {
+  background: white;
+  padding: 90px 60px;
+  margin-top: 90px;
+  gap: 16px;
+  justify-content: center;
+}
+.box .project .box1 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.box .project .box1 .inputs {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 16px;
+}
+.box .project .box1 .inputs input {
+  padding: 10px 200px 10px 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+.box .project .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.box .project .btn button {
+  color: var(--foundation-light-white, #FFF);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border-radius: 8px;
+  border: 0.5px solid var(--foundation-dark-light-hover, #A7A7A7);
+  background: var(--foundation-painted-pony-normal, #B99674);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  padding: 10px 300px;
+}
+
+.sign {
+  margin-top: 100px;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.sign section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign section .sign_item {
+  width: 630px;
+}
+.sign section .sign_item .phone {
+  display: flex;
+  gap: 36px;
+  padding-top: 50px;
+}
+.sign section .sign_item .phone h3 {
+  color: var(--foundation-painted-pony-normal-hover, #A78768);
+  font-family: sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.sign section .sign_item .phone p {
+  padding-top: 15px;
+  color: var(--foundation-dark-dark-active, #0A0A0A);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sign section .sign_item img:nth-child(4) {
+  padding-top: 50px;
+}
+.sign .contact {
+  width: 100%;
+  background: var(--foundation-painted-pony-normal, #B99674);
+  padding: 99px 80px;
+}
+.sign .contact aside {
+  padding: 25px 25px 100px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.sign .contact aside p {
+  color: var(--foundation-painted-pony-darker, #413529);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.sign .contact aside h1 {
+  color: var(--foundation-painted-pony-darker, #413529);
+  font-family: sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.sign .contact aside article {
+  padding-top: 64px;
+  display: grid;
+  gap: 19px;
+}
+.sign .contact aside article input {
+  padding: 20px 350px 20px 20px;
+}
+.sign .contact aside article .input {
+  padding-bottom: 70px;
+}
+.sign .contact aside article button {
+  background: var(--foundation-painted-pony-normal-active, #94785D);
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.sec {
+  display: flex;
+  margin-top: 200px;
+}
+.sec .sign1 {
+  padding: 94px 100px;
+  background: rgb(236, 235, 232);
+}
+.sec .sign1 .sign_item1 {
+  padding: 55px;
+  border: 2px solid grey;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  background: #fff;
+}
+.sec .sign1 .sign_item1 h1 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.sec .sign1 .sign_item1 .inputs {
+  padding-top: 41px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.sec .sign1 .sign_item1 .inputs aside {
+  display: flex;
+  gap: 25px;
+}
+.sec .sign1 .sign_item1 .inputs aside input {
+  padding: 20px 100px 20px 5px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.sec .sign1 .sign_item1 .inputs input {
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 20px 392px 20px 5px;
+}
+.sec .sign1 .sign_item1 .inputs .img2 {
+  display: flex;
+  gap: 10px;
+  padding: 47px 0;
+}
+.sec .sign1 .sign_item1 .inputs .img2 img {
+  width: 20px;
+  height: 20px;
+}
+.sec .sign1 .sign_item1 .inputs .img2 p {
+  color: var(--foundation-dark-normal, #5C5C5C);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.sec .sign1 .sign_item1 .inputs button {
+  color: #FFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 0;
+  border-radius: 8px;
+  border: 0.5px solid #C4C4C4;
+  background: var(--foundation-dark-normal, #5C5C5C);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.sec img {
+  width: 100%;
+  height: 800px;
+}/*# sourceMappingURL=style.css.map */
